@@ -52,7 +52,7 @@ export default function Home() {
         style={{ height: "0", width: "0" }}
       >
         <Navbar
-          links={pages.map(({ Content }) => Object.keys({Content})[0])}
+          links={pages.map(({ Content }) => Object.keys(Content)[0])}
           homeRef={ref}
         />
       </ParallaxLayer>
