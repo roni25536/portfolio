@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 100vh;
+}
+.firstText {
+  font-family: "Courier New", Courier, monospace;
+  color: #e6f1ff;
+}
+.secondText {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #64ffda;
+}
+.thirdText {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #a8b2d1;
+}

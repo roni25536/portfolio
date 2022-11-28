@@ -1,0 +1,51 @@
+.root {
+  text-align: center;
+}
+.content {
+  height: 75vh;
+}
+.footer {
+  background-color: #000000a1;
+  display: grid;
+  grid-auto-rows: 50%;
+  height: 25vh;
+}
+.title {
+  color: white;
+  line-height: 12.5vh;
+}
+
+.link {
+  border: solid;
+  border-radius: 50%;
+  height: 4vh;
+  width: 4vh;
+  padding: 1vh;
+  margin: 1vh;
+  background-color: white;
+}
+.link:hover {
+  color: white;
+}
+.whatsapp {
+  color: #25d366;
+}
+.whatsapp:hover {
+  border-color: #25d366;
+  background-color: #25d366;
+}
+.envelope {
+  color: #db4437;
+}
+.envelope:hover {
+  border-color: #db4437;
+  background-color: #db4437;
+}
+.linkedin {
+  color: #0072b1;
+}
+
+.linkedin:hover {
+  border-color: #0072b1;
+  background-color: #0072b1;
+}
