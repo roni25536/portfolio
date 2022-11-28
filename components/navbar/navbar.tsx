@@ -10,11 +10,11 @@ const navbar = ({ links, homeRef }: props) => {
   const getCurrentPage = () =>
     Math.round(homeRef?.current?.current / homeRef?.current?.space);
 
-  const [currentPage, setCurrentPage] = useState(getCurrentPage());
+  const [currentpage, setCurrentpage] = useState(getCurrentPage());
   useEffect(() => {
     window.addEventListener(
       "scroll",
-      () => setCurrentPage(getCurrentPage()),
+      () => setCurrentpage(getCurrentPage()),
       true
     );
   });
