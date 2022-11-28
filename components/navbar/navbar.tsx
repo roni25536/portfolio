@@ -37,7 +37,7 @@ const Navbar = ({ links, homeRef }: props) => {
           key={page}
           onClick={() => {
            homeRef?.current?.scrollTo(page);
-           alert(link);
+           alert(links);
            }}
           style={{
             // padding: `0 ${100 / links.length}vw`,
