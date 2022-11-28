@@ -13,6 +13,7 @@ import axios from "axios";
 type page = {
   background: string;
   Content: () => JSX.Element;
+  name: string;
 };
 
 export default function Home() {
