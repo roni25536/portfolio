@@ -36,7 +36,7 @@ const Navbar = ({ links, homeRef }: props) => {
         <div
           key={page}
           onClick={() => {
-           homeRef?.current?.scrollTo(page)};
+           homeRef?.current?.scrollTo(page);
            alert(link);
            }}
           style={{
