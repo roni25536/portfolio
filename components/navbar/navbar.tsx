@@ -38,10 +38,10 @@ const Navbar = ({ links, homeRef }: props) => {
           onClick={() => homeRef?.current?.scrollTo(page)}
           style={{
             // padding: `0 ${100 / links.length}vw`,
-            borderBottom: currentPage === page ? "none" : "solid",
-            borderLeft: currentPage === page ? "solid" : "none",
-            borderRight: currentPage === page ? "solid" : "none",
-            borderTop: currentPage === page ? "solid" : "none",
+            borderBottom: currentpage === page ? "none" : "solid",
+            borderLeft: currentpage === page ? "solid" : "none",
+            borderRight: currentpage === page ? "solid" : "none",
+            borderTop: currentpage === page ? "solid" : "none",
             cursor: "pointer",
           }}
         >
