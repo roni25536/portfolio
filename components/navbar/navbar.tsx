@@ -3,7 +3,7 @@ import { MutableRefObject, Ref, useEffect, useRef, useState } from "react";
 
 type props = {
   links: string[];
-  homeRef: Ref<IParallax>;
+  homeRef: any;
 };
 
 const Navbar = ({ links, homeRef }: props) => {
