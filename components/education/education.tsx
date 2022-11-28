@@ -1,6 +1,6 @@
 import styles from "./education.module.css";
 
-const education = () => {
+const ducation = () => {
   return (
     <div className={styles.root}>
       <h3 className={styles.firstText}>
@@ -12,4 +12,4 @@ const education = () => {
   );
 };
 
-export default education;
+export default Education;

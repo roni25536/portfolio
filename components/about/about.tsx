@@ -1,6 +1,6 @@
 import styles from "./about.module.css";
 
-const about = () => {
+const bout = () => {
   return (
     <div className={styles.root}>
       <h3 className={styles.firstText}>
@@ -11,4 +11,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

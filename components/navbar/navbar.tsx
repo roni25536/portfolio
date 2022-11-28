@@ -6,7 +6,7 @@ type props = {
   homeRef: Ref<IParallax>;
 };
 
-const navbar = ({ links, homeRef }: props) => {
+const Navbar = ({ links, homeRef }: props) => {
   const getCurrentPage = () =>
     Math.round(homeRef?.current?.current / homeRef?.current?.space);
 
@@ -52,4 +52,4 @@ const navbar = ({ links, homeRef }: props) => {
   );
 };
 
-export default navbar;
+export default Navbar;

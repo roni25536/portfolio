@@ -5,7 +5,7 @@ import { faWhatsapp, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import cn from "classnames";
 
-const contact = () => {
+const ontact = () => {
   return (
     <div className={styles.root}>
       <div className={styles.content}></div>
@@ -36,4 +36,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

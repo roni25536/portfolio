@@ -1,6 +1,6 @@
 import styles from "./experience.module.css";
 
-const experience = () => {
+const Experience = () => {
   return (
     <div className={styles.root}>
       <h3 className={styles.firstText}>
@@ -12,4 +12,4 @@ const experience = () => {
   );
 };
 
-export default experience;
+export default Experience;

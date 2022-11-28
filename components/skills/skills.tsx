@@ -1,7 +1,7 @@
 import styles from "./skills.module.css";
 import Image from "next/image";
 
-const skills = () => {
+const Skills = () => {
   const skills = [
     { name: "HTML-1", displayName: "HTML" },
     { name: "css-3", displayName: "CSS" },
@@ -52,4 +52,4 @@ const skills = () => {
   );
 };
 
-export default skills;
+export default Skills;
