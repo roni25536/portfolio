@@ -1,6 +1,6 @@
 import styles from "./about.module.css";
 
-const bout = () => {
+const About = () => {
   return (
     <div className={styles.root}>
       <h3 className={styles.firstText}>

@@ -1,6 +1,6 @@
 import styles from "./education.module.css";
 
-const ducation = () => {
+const Education = () => {
   return (
     <div className={styles.root}>
       <h3 className={styles.firstText}>
