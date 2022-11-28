@@ -33,11 +33,11 @@ export default function Home() {
   // });
   const ref: Ref<IParallax> = useRef() as Ref<IParallax>;
   const pages: page[] = [
-    { background: "linkedin.svg", Content: About },
-    { background: "bsmch.svg", Content: Education },
-    { background: "aman.png", Content: Experience },
-    { background: "github.svg", Content: Skills },
-    { background: "linkedin.svg", Content: Contact },
+    { background: "linkedin.svg", Content: About, name: "About" },
+    { background: "bsmch.svg", Content: Education, name: "Education" },
+    { background: "aman.png", Content: Experience, name: "Experience" },
+    { background: "github.svg", Content: Skills, name: "Skills" },
+    { background: "linkedin.svg", Content: Contact, name: "Contact" },
   ];
   const imageProps = {
     // fill: true,
@@ -52,7 +52,7 @@ export default function Home() {
         style={{ height: "0", width: "0" }}
       >
         <Navbar
-          links={pages.map(({Content}) => About.name )}
+          links={pages.map(({name}) => name )}
           homeRef={ref}
         />
       </ParallaxLayer>
